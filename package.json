@@ -3,6 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": {
+    "name": "Abolfazl Akbarzadeh",
+    "email": "abolfazlakbarzadeh80@gmail.com",
+    "url": "https://a-akbarzadeh.ir"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
