@@ -2,7 +2,6 @@ import {
   OrbitControls,
   PerspectiveCamera,
   View,
-  useGLTF,
 } from "@react-three/drei";
 import React, { Suspense } from "react";
 import Lights from "./Lights";
@@ -18,7 +17,7 @@ const ModelView = ({
   controlRef,
   model,
   size,
-}) => {
+}: any) => {
   return (
     <View
       index={index}

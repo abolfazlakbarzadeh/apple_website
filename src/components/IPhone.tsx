@@ -1,8 +1,9 @@
+//@ts-nocheck
 import * as THREE from "three";
-import React, { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import { useGLTF, useTexture } from "@react-three/drei";
 
-function IPhone(props) {
+function IPhone(props: any) {
   const { nodes, materials } = useGLTF("/models/scene.glb");
 
   const texture = useTexture(props.model.img);
