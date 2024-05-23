@@ -1,6 +1,5 @@
 import { navLists } from "@/constants";
 import { appleImg, bagImg, searchImg } from "@/utils";
-import React from "react";
 
 const Navbar = () => {
   return (

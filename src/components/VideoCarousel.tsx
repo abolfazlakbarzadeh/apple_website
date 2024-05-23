@@ -3,7 +3,7 @@ import { pauseImg, playImg, replayImg } from "@/utils";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -148,7 +148,7 @@ const VideoCarousel = () => {
     }
   };
 
-  const handleLoadedMetadata = (i: number, e: unknown) =>
+  const handleLoadedMetadata = (_: number, e: unknown) =>
     setLoadedData((loadedData) => [...loadedData, e]);
 
   return (

@@ -11,7 +11,7 @@ Sentry.init({
     Sentry.metrics.metricsAggregatorIntegration(),
     Sentry.reactRouterV6BrowserTracingIntegration({
       useEffect: React.useEffect,
-    }),
+    } as any),
     Sentry.replayIntegration(),
   ],
   // Performance Monitoring

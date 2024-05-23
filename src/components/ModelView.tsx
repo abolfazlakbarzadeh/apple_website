@@ -3,7 +3,7 @@ import {
   PerspectiveCamera,
   View,
 } from "@react-three/drei";
-import React, { Suspense } from "react";
+import { Suspense } from "react";
 import Lights from "./Lights";
 import IPhone from "./IPhone";
 import * as THREE from "three";
